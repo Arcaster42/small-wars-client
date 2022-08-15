@@ -1,0 +1,21 @@
+.resource-card {
+  margin: 2px;
+  height: 6vh;
+  width: 12vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resource-img {
+  height: 3vh;
+  width: 6vw;
+}
+
+.resource-name {
+  font-size: large;
+}
+
+.resource-value {
+  font-weight: bold;
+}

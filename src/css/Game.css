@@ -1,0 +1,30 @@
+.action-wrapper, .construction-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  margin: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-wrapper {
+  margin-top: 10px;
+  justify-content: center;
+  display: grid;
+}
+
+.resource-wrapper {
+  margin-top: 5px;
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(6, 50px);
+  justify-content: center;
+}
+
+.action-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+}

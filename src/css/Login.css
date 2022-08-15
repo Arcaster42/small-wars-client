@@ -1,0 +1,12 @@
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn {
+  margin-top: 20px;
+}
+
+.sandbox {
+  border: 1px solid black;
+}
